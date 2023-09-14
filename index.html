@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=F">
+    <link ref="https://cdn.jsdelivr.net/npm/boot.strap@5.1.3/dist/css/bootstrap.min.css">
+    <title>Form</title>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello Sharpner</h1>
-    
-</body>
+    <div class="container">
+        <ol>
+            <li onclick(()=>{console.log})</li>     style="color: green;">
+                Hello
+            </li>
+            <li style="color: yellow;">
+                Second
+            </li>
+        </ol>
+
+        <form>
+            <h1>Registration Form</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input type="username" id="username" class="form-control" placeholder="place email here">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="email">Email-ID </label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="place">Place/City</label>
+                <input id="place" name="place" type="place">
+                <div class="error"></div>
+            </div>
+
+            <button type="submit">Sign Up</button>
+
+
+            </label>
+    </div>
+    </form>
+
 </html>
